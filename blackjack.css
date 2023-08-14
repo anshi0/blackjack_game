@@ -1,0 +1,72 @@
+body {
+    background-image: url("blackjack\ background.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 700px;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 80px;
+    text-shadow: 5px 5px black;
+}
+
+p {
+    font-style: italic;
+    color: white;
+    font-size: 40px;
+    /*font-family: 'Dancing Script', cursive;*/
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#startgame-btn{
+    background-color: goldenrod;
+    width: 300px;
+    color: #016f32;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    border-color: goldenrod;
+    margin-top: 20px;
+    text-shadow: 0px 0px 20px goldenrod;
+}
+
+#newcard-btn{
+    background-color: goldenrod;
+    width: 300px;
+    color: #016f32;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    border-color: goldenrod;
+    margin-top: 7px;
+    text-shadow: 0px 0px 20px goldenrod;
+}
+
+#reset-btn {
+    background-color: goldenrod;
+    width: 300px;
+    color: #016f32;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    border-color: goldenrod;
+    margin-top: 7px;
+    text-shadow: 0px 0px 20px goldenrod;
+
+}
